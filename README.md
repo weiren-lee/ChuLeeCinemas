@@ -33,3 +33,10 @@ My Bookings
 
 Be Safe
 ![besafe](https://user-images.githubusercontent.com/89297179/143855191-767e3890-4018-4a11-9228-87c1f82e3eac.png)
+
+Email upon Registering
+![registeremail](https://user-images.githubusercontent.com/89297179/143855765-d225d70f-9c03-4f05-bea4-6df49656a623.png)
+
+Email upon Booking
+![bookingemail](https://user-images.githubusercontent.com/89297179/143855796-b7541ecc-a74d-49b6-8d08-fc0961363047.png)
+
