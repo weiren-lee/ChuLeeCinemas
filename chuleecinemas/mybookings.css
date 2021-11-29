@@ -1,0 +1,33 @@
+#container {
+	display: flex;
+    background-color: #f3f3f3;
+	color: #000000;
+	width: auto;
+	height: auto;
+}
+#mybookingscontent {
+	width: 100%;
+	margin: 0 30px;
+	height: 400px;
+	text-align: center;
+}
+#mybookings {
+	flex: 5;
+	background-color: #7FA2B3;
+}
+#mybookings table {
+	width: 100%;
+}
+#mybookings table tr{
+	text-align: center;
+	padding: 15px;
+}
+#mybookings table th{
+	font-size: larger;
+	padding: 15px;
+}
+#mybookings th, td{
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid #5F8BA0;
+}

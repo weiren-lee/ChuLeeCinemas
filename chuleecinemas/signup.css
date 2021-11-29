@@ -1,0 +1,60 @@
+#container {
+	display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+	color: #5f8ba0;
+	width: inherit;
+	height: auto;
+    justify-content: center;
+    text-align: center;
+}
+#welcome {
+    width: 100%;
+}
+#signup {
+    border: 2px solid #5f8ba0;
+	color: #000;
+	font-size: 20px;
+	margin-top: 20px;
+    margin-bottom: 50px;
+	width: 800px;
+    align-self: center;
+    text-align: left;
+    border-radius: 10px;
+}
+#signup table {
+    width: 100%;
+}
+#tablecontent {
+    padding: 20px;
+}
+#tablecontent input {
+    margin: 10px 0;
+    line-height: 20px;
+}
+.tick {
+    color: rgb(1, 129, 1);
+}
+.tick:before {
+    content: "✓";
+}
+.cross {
+    color: #eb0505;
+}
+.cross:before {
+    content: "✖";
+}
+#popup1 {
+    background: #f2f2f2;
+    color: #000000;
+    padding: 0px 10px;
+    margin-top: 10px;
+    font-size: smaller;
+}
+#popup2 {
+    background: #f2f2f2;
+    color: #000000;
+    padding: 0px 10px;
+    margin-top: 10px;
+    font-size: smaller;
+}

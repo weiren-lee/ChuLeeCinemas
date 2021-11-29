@@ -1,0 +1,44 @@
+#container {
+  font-size: 20px;
+  display: flex;
+}
+#container img {
+  float: none;
+  width: 400px;
+  margin-top: 50px;
+}
+#movieposter {
+  text-align: center;
+  margin-left:100px;
+  width: 100%;
+}
+#moviename {
+  width: 100%;
+  text-align: left;
+  font-size: 40px;
+}
+#moviedetails {
+  margin: 30px;
+  text-align: justify;
+  display: block;
+}
+#detailright p {
+  text-align: left;
+  width: auto;
+}
+.bookingtimings {
+  margin-bottom: 0px;
+  color: aqua;
+}
+.bottom {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+   
+  }
+table#table {
+  width:80%; 
+  margin-left:10%; 
+  margin-right:10%;
+  border-collapse: collapse;
+}

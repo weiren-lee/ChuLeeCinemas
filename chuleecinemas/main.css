@@ -1,0 +1,155 @@
+html{
+    min-height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body { 
+    margin: 0;
+	background-color: #f5f5f5;
+}
+header{ 
+	background-color: #5f8ba0;
+    margin: auto;
+	height: 70px;
+	width: 100%;
+}
+header img {
+	display: block;
+	margin: auto;
+	padding: 10px;
+    float: left;
+    height: 50px;
+}
+ul.topnavlinks {   
+    display: flex;   
+    margin-top: 0px;
+}
+ul #start {
+    display: flex;
+    justify-content: flex-start;
+}
+ul #end {
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+nav ul li{
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: bold;
+    padding: 18px 40px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #e9e9e9;
+}
+nav ul li a:hover {
+	color: white;
+}
+.wordHeader {
+    padding-top: 25px;
+}
+nav ul li a input {
+    font-family: inherit;
+    text-transform: uppercase;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #4b4c50;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+nav ul li a input:hover {
+    background-color: #e5e5e5;
+    color: #383838;
+}
+nav ul li a input:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.ddbutton {
+    background: #5f8ba0;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 0px;
+}
+.dd {
+    position: relative;
+    display: inline-block;
+}
+.ddlist {
+    right:0;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    overflow: auto;
+    box-shadow: 1px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.ddlist a {
+    color: #000;
+    padding: 14px 18px;
+    text-decoration: none;
+    display: block;
+}
+.ddlist a:hover {
+    background-color: #f3f3f3;
+}
+.show {
+    display:block;
+}
+
+#wrapper { 
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer { 
+	color: #e5e5e5;
+	text-align: center;
+	background-color: #5f8ba0;
+    padding: 10px 0px;
+
+}
+footer a {
+	color: #e5e5e5;
+}
+footer a:hover {
+	color: #222222;
+}
+.button {
+    background-color: #e5e5e5;
+    color: #4e4e4e;
+    cursor: pointer;
+    justify-content: center;
+    border: 2px solid #4e4e4e;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: 750;
+    height: 2.2em;
+    float: right;
+}
+.button:hover {
+    border-color: #e5e5e5;
+    background-color: #4e4e4e;
+    color: #e5e5e5;
+}
+.quickbuybutton {
+	background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    justify-content: center;
+    border: 1px solid #000;
+	width: 200px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 750;
+    height: 2.2em;
+}
+.quickbuybutton:hover {
+    border-color: #000;
+    background-color: #f0f0f0;
+    color: #000;
+}
